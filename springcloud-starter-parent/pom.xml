@@ -14,41 +14,34 @@
 		<relativePath />
 	</parent>
 
-
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Finchley.SR1</version>
+				<version>Finchley.SR2</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<properties>
-		<cloud_version>1.4.4.RELEASE</cloud_version>
-	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
-			<version>${cloud_version}</version>
+			<version>RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
-			<version>${cloud_version}</version>
+			<version>RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-feign</artifactId>
-			<version>${cloud_version}</version>
+			<version>RELEASE</version>
 		</dependency>
 	</dependencies>
-
-
-
 
 </project>
